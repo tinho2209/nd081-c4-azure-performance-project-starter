@@ -58,6 +58,7 @@ az vmss create \
   --resource-group $resourceGroup \
   --name $vmssName \
   --image $osType \
+  --orchestration-mode Uniform \
   --vm-sku $vmSize \
   --nsg $nsgName \
   --subnet $subnetName \
